@@ -30,8 +30,8 @@ after_script:
 
 branches:
   only:
-    - master
-    # - hexo
+    #- master
+     - hexo
 env:
  global:
    - GH_REF: github.com/xigrug/xigrug.github.io.git
